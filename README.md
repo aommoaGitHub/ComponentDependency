@@ -8,13 +8,9 @@ Apache Kafka project
 [Project Information](https://projects.apache.org/project.html?kafka), [Download](http://kafka.apache.org/downloads.html)
 
 ## Graph using RStudio
-![Graph1](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Graph1")
-![Graph2](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Graph2")
+**The A/I Graph**
+![The-A:I-Graph](https://github.com/aommoaGitHub/ComponentDependency/blob/master/images/The-A:I-Graph.png "The-A:I-Graph")
+**Histogram of the normalized distance**
+![Hist-Normailized-Distance](https://github.com/aommoaGitHub/ComponentDependency/blob/master/images/Hist-Normalized-Distance.png "Hist-Normailized-Distance")
 
-**Not well-designed packages**
-1. ไม่ควรให้ stable -> flexible [stableคือI=0] [flexibleคือI=1] วิธีแก้คือ ให้สร้างคลาส stable เพิ่มมาอันนึง เป็น stable -> newStable <- flexible (ช่วยลดค่า I ใช้หลักการของ DIP)
-
-**Analysis and Suggestion**
-- using OCP principle
-- stable = astract
-- instable = flexible = concrete
+From the A/I Graph, it shows that most of them are not close to the main sequence. And from histogram of normalized distance, show that mostly of them have high distance from the main sequence, too. 
