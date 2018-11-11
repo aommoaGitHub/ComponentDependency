@@ -11,7 +11,7 @@ Apache Kafka project:
 csv: [packages.csv](https://github.com/aommoaGitHub/ComponentDependency/blob/master/packages.CSV)
 <br>R markdown (using RStudio): [packagesGraph.Rmd](https://github.com/aommoaGitHub/ComponentDependency/blob/master/packagesGraph.Rmd)
 <br>
-   As you can see from both the A/I Graph, and histogram of normalized distance, most of packages have high distance from the main sequence and some are in the zone of pain.
+   As you can see from both the A/I Graph, and histogram of normalized distance, most of packages have long distance from the main sequence and some are in the zone of pain.
 Moreover, most value of instability and abstractness are 0. So the project should has more abstract files as DIP principle, following these sentences
 "Details should depend on abstractions. Abstractions should not depend on details. Everything should depend upon abstraction.". 
 
