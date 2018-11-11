@@ -1,3 +1,5 @@
+import static java.lang.Math.abs;
+
 public class PackageInfo {
     String packageName;
     int ca; //the number of classes inside of component
@@ -15,7 +17,7 @@ public class PackageInfo {
     }
 
     public double getNormalizedDistance() {
-        return Math.abstract(getAbstractness() + getInstability() - 1);
+        return abs(getAbstractness() + getInstability() - 1);
     }
 
     public double getDistance() {
