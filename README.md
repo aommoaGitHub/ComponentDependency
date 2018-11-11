@@ -1,7 +1,7 @@
-# ConponentDependency
+# ComponentDependency
 Author
 1. Vittunyuta Maeprasart 5910545019
-2. Chawakorn Suprephe 5910545671
+2. Chawakorn Suphepre 5910545671
 
 ## Selected Project
 Apache Kafka project: 
