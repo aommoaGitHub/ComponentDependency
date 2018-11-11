@@ -15,4 +15,9 @@ plot(packagesInfo$instability, packagesInfo$abstractness, xlab="Instability(I)",
 ```{r}
 hist(packagesInfo$normalizedDistance, xlab="Normalized Distance", main="Histogram of Normalized Distance", col="orange")
 ```
-
+```{r}
+hist(packagesInfo$instability, xlab="Instability", main="Histogram of Instability", col="pink")
+```
+```{r}
+hist(packagesInfo$abstractness, xlab="Abstractness", main="Histogram of Abstractness", col="green")
+```
