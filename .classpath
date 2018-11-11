@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/clients/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/clients/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/api/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/api/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/basic-auth-extension/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/basic-auth-extension/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/file/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/file/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/json/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/json/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/runtime/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/runtime/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/transforms/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/connect/transforms/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/core/src/main/scala"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/examples/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/jmh-benchmarks/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/log4j-appender/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/log4j-appender/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/examples/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/examples/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/test-utils/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/test-utils/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/upgrade-system-tests-0100/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/upgrade-system-tests-0101/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/upgrade-system-tests-0102/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/upgrade-system-tests-0110/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/upgrade-system-tests-10/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/streams/upgrade-system-tests-11/src/test/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/tools/src/main/java"/>
+	<classpathentry kind="src" path="kafka-2.0 2.1-src/tools/src/test/java"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
