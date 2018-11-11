@@ -14,4 +14,12 @@ public class PackageInfo {
         return na/nc;
     }
 
+    public double getNormalizedDistance() {
+        return Math.abstract(getAbstractness() + getInstability() - 1);
+    }
+
+    public double getDistance() {
+        return getNormalizedDistance() / Math.sqrt(2);
+    }
+
 }
