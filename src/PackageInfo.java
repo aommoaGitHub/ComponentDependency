@@ -4,7 +4,7 @@ public class PackageInfo {
 	int ce; // the number of classes outside of component
 
 	public double getInstability() {
-		return ce / (ca + ce);
+		return (double) ce / (double) (ca + ce);
 	}
 
 	int na; // the number of abstract classes
@@ -21,5 +21,4 @@ public class PackageInfo {
 	public double getDistance() {
 		return getNormalizedDistance() / Math.sqrt(2);
 	}
-
 }
