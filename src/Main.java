@@ -57,7 +57,7 @@ public class Main {
 		System.out.println(packages.size() + " packages");
 
 		try {
-			PrintWriter writer = new PrintWriter("packages.CSV", "UTF-8");
+			PrintWriter writer = new PrintWriter("packages.csv", "UTF-8");
 			writer.println("packageName, instability, abstractness, normalizedDistance, distance");
 			for (PackageInfo p : packages.values()) {
 				writer.println(p.packageName + ", " + p.getInstability() + ", " + p.getAbstractness() + ", "
@@ -69,7 +69,7 @@ public class Main {
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
-		System.out.println("packages.CSV is created at the project's root directory");
+		System.out.println("packages.csv is created at the project's root directory");
 		System.out.println("Done");
 	}
 }
